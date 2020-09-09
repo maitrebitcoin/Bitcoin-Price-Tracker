@@ -1,0 +1,663 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Main
+ major_version : 25
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Main
+ identifier : 0x2f3922c81b3a1682
+ internal_properties : BQAAAAUAAAAQsEXF62IL2W1ol3LdWMLGylK6E9yFBGSVOcXRohUz9ZJQE/CYcuDvK4f9fjuSmqzdlMcWgBFq4mucNG8kPHk3jJIKRJUZlTaozcimLJESi39+m49lwLn9VjVnvRo+6oWKY+ADdxzVULss0keaWGMFYxYYHGtxueTdaW3uwjwzxOMfVeihqbYxiDOkz2o7gJ0MEnOfzI/OB7jjhYR3lme0CFU2Nfk9O27j0kbti4Qd6qxRJvcFkA4GJ4HcJJhSLNkrK9mSghDbgwTYona/kXaHKvjIwakyw70pTLJiy5/kCCFiU4pKbH0AB+G3EjMEeFLsB7ou8I+VhRf/zWisZUOv8Qd6xEOinFz0yhywg4feF6lhZacV4pwtozIRk0qzj5KWXuSwetYsoIdT90rmBoKyvC+jDNbbwxcLVV0h1KHsUJNXR0jXVy5Blld1l2/XNrbySGvc10iquj17t9u+7PaTBUu9uNcwgep1MTWGpthbxVRqtYcHZdmPeNsva8kEKsvDwJTf2NdpzQU9lH2yd7r2UKhNNyrSJyE2wz4Vh2KzIjmfe134hYaBFC2W2JtJ1EUp0ezphXeJzkg3YXMaRhY4JRyl1lU4siMftGpvHD/u6TMAeyWkwiQodfx/ROfpESqMB9PLKcSxLhJa4NjzO7QxC4oJACWlrRLrI2SpsP5YEMGzxF1gdY1loF51F6KSwhKMthqYPdzC3odvtcZTRCc+Ytz0VmvbyE1TtPXYQeMZz7U7kEe6QrCAw0eIWK66GLL2wRGmlLZSBpYZWH0uXPyeOuLaGdP2rpbhmTSwsf/5l7+GTBwGCeO84E9RklTuvUvXJGIfnD7serTUuKpGphqc+uHhn/07VSKBSH0rtlY61tvjeAWf15quT6d9GxunSleZYJq5KxXOLpEWHuOp/3iDzxWD5iRfJRYtHqO4mlg6SrFo62nsFwr+3zOZ2mgDxHmE9oQgO6KEKhKs0wEqYegqj8Ec7L4TPrkCQb5+0/0Oolg7tlbAUcLdODWwuS4+PAYc0j0tUgU40LR5sLUbHfDGtGJotOBT6iY/Yx8rewvSd1HyN1vT21g+mupus1Q/rOPjEL53IgfzOMOEb8MxUaeEbK0n7/Vk2CnFSfpvHJ+3+Qa+p/c5c3NEA3nSiLdAhW7Fxc6L7Vw5mM7KeXZI4UWtN0REXsCmTzTqiDJ/FyJHLy+lCNYYGH1FtJETAttIR5K4ZcBqF4Src43IzxN19b64I5CxJDlStBQYa8zX
+ controls :
+  -
+    name : LIB_Prix_1_BTC
+    identifier : 0x2f3922e71c099259
+    internal_properties : BQAAAAUAAACP30TDy6M7vXPu96BxwQgfxP08zXRhPkFhEpYc20eyfO9/FGYtk7Hr6C26mEg9VJaVYIZw4CV4iJf4g4qAbeGVNiqyrtk9rT9GzpJXdP7NNA0IkX5tbCCT1wkw5Qnakgn+Latk9aijEnd+2Bq/b6oVjprOVFAZlT112kw4FMXUuB1kujvBrUaPP0af5q8wPVo+a5Dh0N4DbS5biFKGq+xOqSLzW18d5U+NOGWpiMbw6dl8nFsF4aJOkZIiUjgQXsQMwKMNXvfG2PotXaYQ5+wXUxjHtbVBLP6Z+B9BzxQskbHOLaQcA8JHZyPoD2vaVLrcAWsYLs5DyS3iVRIZj8BbuzITgTOy24avmczDRi89V+BiribEikJdQ1TDtv2AYRphK0hmtd5mQ59BbWfeKj7aF73hSqfEdl4UaOdLQdJC5KF31he8K0sbq7Jy4QHugSY48MBBA42Z+eIOI/xvuhkIQt6dUpUsbjDfnPGDVh8zNKIVLnjcIrli+y/AbCOlrwNHcbHk9pzzbo+eTznGa1VoeLLfKh9LTIuCyyy4GgnkJ2tUA0ksTRGI26xy+nZdvl0itLc+C+vapfq7CNdODk9GtjcwttiVvwhhdKKi/SI3n8Frw1XE4L3ff5FZEzjYcNhZuR7SiW2qTtJuwU+ZR7zm3ESGDUN8lFxHNI2SoQChmK41WFKk3+L/+dyKAlcB8msbP8cJMl5EnI5UVR6HhAwfemyTGMh750oVlN+qn+nPMsXPbK6WIJFgvVBRnHl3XDAzYKcirIrpep66ZJGkWNCybTo9ynflXU3GdIeQAgNhDFuwj4iFSOnSrXs7AtFWpGTXcW3DPg3QZ7SZdZx3m6lZechD9gJY7M7h9JLqPKDByixgiY5QfITR3D1ek3RBexbJs6vF0+e9Xiqk/G6cLb14G+Z9FufTFA==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         moimeme = 0
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : IMG_ALLTIMEHIGH_TOTAL
+    identifier : 0x2f3938171c775405
+    internal_properties : BQAAAAUAAAC9taxFI41x+ZGZ92UCdAEgFlwB5x/rt6NFXDzg0oqgQJspvsMex4q4edikBeK2GkvGtdw/bRVIbZkwnqR8N65InkknAljkRrGg8CGOI/20OFXBFybMFgnlM7J96B7wKC4D7bDWchmltyXr2oWc5X9F7R7Pxt+oitAPIDRT8eF/mouEOiTzs5sgYYRO3W57teA78TEaXWMe0ObsdBXY3smAOTSXV1/dfnjIsvlGI4Fy9voXiPq8SWgRwrSLGH2b8OQB+MsUga/FXtmQstItcoOX+dn7kAMhC6+vc0dCABQ4GsYNlEsSdXEahaQ4YvsmXETCLiqQO2L/Q4AZ1pToJzOJ/4LLJCygBf+gPv/kxMT5xKFWIokU7/12suok2QrQYx9oiU3TUG1m8xCguzbM9pwnotN5LGQvWeAJghs4x8W5dhnG74c49OZ8oBlzcf8GRXHuQ5gJY7mhfHBn3nGPkuKCJROPM72FipwgdpB2AT/ejqrS3V6j2HD4gh21yzgW+gtcDLKlD3L4uCOTvC+29pdY3tfBbdXmbY3KNnmfA+sHNHTlwDPrtSg9ihQsxrQgITABzmf47YMGydLPdVfIj3tov0nTPxnq5ELj1PLex8kk+0W8v8fXqQwDwkA9A5D26/Mh4frP4QHT6BgMwlzj0MGDj1IofXBB5i7lkH/s6hGkd+Dcuz7bhOEr6Wl1yP1y/yh6i8iz7S60XmgdQM5FYIvLiGcxV50AWmOWX/xg4l+Y6rQU6+KcOEUu+qrKVE6hkTUQUl+VlCjC+g2mazhwCEW3X5tZKbHrPUTUWZwaAjwoJJpZsIH08y+PbyOIkus/hFCjoHB0fseI4fBPx4RpRIlVEFbbjhABu9Eei/dKPXAO5tomRF+lkBD2/LPaz+MQ1YbxFsGawgbmQfgQvvnmAM963514PTBL+DdsTRYIgLhdZVU8QEYDvzYYuAJhZQN/NyvXis1akb4Rpm423VvpQ45+nvxdImRCiC9bGtvIVjCm8B4VtFzpwaa08okUJrhJmzKsdXJkUu0j6kz6JU1zGiVTyCSnoFaoksJ6l2PZMizCGEtFYcMoRGMayD2Oh72/PeHbwwbklmV2L80xi8S3ttrX6ljb3shF6Ipz1JPNdBMM4Cmuddse6Zjp48LOsuFhEnRTD2Q304/hYlNSz91GbeMOKfJ+iOH9p4zn4Ztld/OKzieNqAgH/G+7mBBJYyI5TNDFovb87CijOoqII2jy7yp0hLCXsOlQjMqVlZ9VVFyuaBDZRrAlcoZTUYZuIjgdgOB1D8qc7Bw6O4UBatHNRZYYj0pomsqW6EcLvlxWAEsx5eYcQhcHEW5y1kfQjYH7/jXNe85DqdbAk/s6ctPYNCuzdinA5zKLW23Bbw8G8w+QGwNctbeOXLkRuuB6FuWA/ER9vBP5xjsb9+ViW6x8l9veQp/eJYHSdVFER2u9oznj+4O69oSTaw1C9mrmhQSkno7AfGv0epBg7hjpfp8t8RyDs12E0yz4UmsS29p+fwzipiSicSh3fbKADMUCB3cieKQMExiSrLMuyN7htDck92V362ooxfSXVxjpNx2DpuCeBhr29XpE7GdCfF8lBM2KjfDFfLaRY70VbNZvO2NPD8zCsStDvAoJ5FC6aVC1LYg=
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : _Bitcoin
+    identifier : 0x2f393a2d1d507c27
+    internal_properties : BQAAAAUAAABhfOY8Dsx5l6gY+6ku886kq6CL3YxOqUgEUtnkplKsF9U+XOd+2hP+OaobYf/BgocsRPMROfNFoZt+U2TxiZJ9uzaX8/rDYLkTseyEdQ5jwFqgAk+muBBBHSXyqQ3cNyDprkiojEtXdDQH9FzEJaL2zERVXEmXSYXBjri27vPpoHzO18A3QlyqAbUYB/aV/SphVDtWt1+tv/UmfP54B7/WMD/DgBZoTKzj0nT8kJb5I0r0mnIB9NNvxGzPWOnUb1xR69CbUmnPlfwGOcmuH3u3uCYIcS/8ubHuZTeRFKlkp0Zkep3tdFi2sESC1bFiIiL9PRnzLBFdF6xEo45BMeskwhzmHA9O3QXFZAaSjN6e0ovsdIItAQWT3BEUW04eb/qYe2en4YLIdg3fTCDJIv1JyF4yGph/ScyOt8bQuK5Y0E3S8vAAzPwfA+Cu/+ohlJ6rTTPz4as9R2xSPQ36zGP6Jp1Z9QCMilIqwMkQBoFGYM0bsVepHyqbehdND0bGOaaxo2hovKCX1d89BSKNC6iAvkP0rBzrnXGi9EwYe7BdafKaLX+zAYXfeJ3fB4FRj1M1DeFW8uUYYIkFk4HXPy1ZyGg2aPfVvt8rMho0keYFOwymKTEI7Jty4Q/neemsGfVrh/PGoHjHMGvQNuk5mNnZigc5aYklCJidiQ==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : Rafraichir
+    identifier : 0x2f393fc21fa74a8d
+    internal_properties : BQAAAAUAAAC72iA3a843S12uQQsB837RQ6gKIHFJ+5XQdW44vnqNkGN1bMg8mbeJcH5IO8zQ1YX+42/8AXq2U75OzWLgsOq3zO+v8dWbxnyvNXESBAXyiU4368DCFLDQpYDi4749zhkC7EMiC9+/aPbDeE5vFUBx68n4Pi/TGwmWyWboAPO8xc9UQ6Ku5KbAvUZ85AGYf+1XLVDsCPy5/mHBZh+QIXcRsgc4YrHSKscprSMY1VHGcsnS6/tIXfvFoX4Z1zze+x0/Ace5QVMVrqzKcPRvO4gXU6isaEbC5GKh0hwpbbUVsmfSPkggOzw8NFjYtbG2WjqTfA3In6bTkxsFC9Z2HXdcew9OTsw3Dra3lUJV5p1fb9ENH5j3VHyrhlAc2TBnCtzfADUHe7p22wuVUsrbJxHgFq9Izd2ARiWk0zuGriejtLSHUutCCVqeVVVDUfLYMjbakvF7oNVMay3WQojO+Nu3hu4G2hlMsdkIhbc0+fkDRZ2N/cxAjOl0hNj+VkeFgsKU/vCNQPpuYTTYZrC1mzY73dK7uKiU1BdLTjT/CKAvew90sCOwjUTjhyXnEz9+J/mtd7dYLwRxo8cgc7u9suj6JptywvXHe6oDB1Ns8wpbtm/KZneU9l975xnqhJyz/9OIVcOsIh3gZcaSXRpdlrsLAOLEJYz6BvoaYsszyMnyUXTidoWJzhYSHNFgWEFkxgwOajE15JJO674iRVaxI8JjVkQ7wnzOGFc5wGSj1oJRs0DZikzKH++Ya0BYld8H7PioSVZkYaxDaqtIJfugRBCE3NlUEO//ajXcNFrl8McQd31P14Lf13tFALGfdl4UsgyyldkxJhGuyEp6wTBssSbM/gY3ddB3pY6ld6/Uz/tEqkJQe5YgcrYtCgjVak7gnyKVjWea0U1NPXaUeHgmqhdgRpU2P5bxrPKPdeqbUer8x195hHGnnPw3yxLnLnudvg4mIzy/d7vK7i8LitFHj0tnncw6/mn0wgzFkguaeU0kPOargFtmKLJ6wu4U6C7PgggCwdIP/h1mz0RNfwOaQNA6g/2NCuo5WY583u4EPHNnjr+NuTXbM1OZ73OThY8v7m2I59CImllA/3sv9vXzCn/m/nW6wRxLqPgh6bhGNtrKVeLd6uy8MN985XO7yf9LlZg+8f7a57p9Vk149+/+qVyovQ==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         refresh_price()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Evolution_Jour
+    identifier : 0x2f39414c22954aaf
+    internal_properties : BQAAAAUAAADvlY9VZV5/ViVEXcYDjlxBSzt6hszS4CHUTGQYdTSa0T9IY72mIu7PsU4xJ27Cb7owRi9mdRMbDvMgAX5cnD0iTcr/4Xk8Wi0EvVafNzWh+L9cX+vOe/xbpyJz1rf7xHxSWIEz+MXLS5RPy1rXLukcmujC6GLoVj6r0QoGIsK8wuApMpnVYC9RtzSxSBBb70NVMp7t1PLF6Ym6jtuCGgQnccB8GGiXowtIXXL/7bBG6iJ2MyO2FriXr2oIQT9E5D/8VEMxOau3iQCmPcCvv/1uB6YGft8TPPTB9syJvz6S7IJXL3Y7MePTyhw/uCGojLccfc2F5BnkK0cESPcxdZK0ikxMK4u6c6zXsKFcgYLKyyi5ABawsjJC12EvaWPYhj7/KktI5Msx+Sgm5xlBz+7P8SLORWYMfMzX3tgzZ73qFnU5t+9VXjDMD61xF7b8vhQM0MMFIyh1PDw8jZmMfLZNIk3vg6oMpUGInnoK9J+tnHQeeY+hmaUhVZ9+8iF4P7nLURyYbS3G5k+L//TtKam7jFPWsX6uX6led71j8eudTTlnmGL+sPmJGWXJl8chcY2iPbXuRPfrPWR6wblrUAelCJaUW9dlr6cmOp9BQn25ZwbiSuUrAYqmh5xR7GbK6HXATFu7/kTcjwVsH4JC7qtiml4=
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : Evolution_sur_1_jour
+    identifier : 0x2f3943352358c367
+    internal_properties : BQAAAAUAAABeivWbF8ZlEFVRJf+frpcyN31mAluVpQ9Y35E/IGWPyR2A3rTRuHTs7RzN+I5M6xzD5Q/oZMpjuz37E44J/32PRhTpyefmOkEVbHvEHKqAasQxadDOkuuQD2cKSG8NQ1a6h1ryk8GLdKr/ivIt56fF3MeszHfmuM32d8oSxz1hRerZ0NoRZFpgvgEre+HSACLF2JeIay8awL1XoLdA9xCvUjceVDcP/sLU202qjjjbzV0gaS/hBMcUl0xaVnIdRB4RjBI733rfMzo6+jH3BlHftWhnF9vNmc5/Mf3Uyy4x/BXNuqh7fHP6sfQxrwhRnoXbur7NHMRoApslxtaOTAwx1md5KACJA/nDwUD9LBc5pDu62d9/rXAMi8cDQZ12MFxssLuJX5oxfwX8nwsMZF+MWpltg3BR6XeqXaSoCRstN1Gr3N4iMMAa7C/fGoJ9c1BZysR4LeNpaJh84kfUBH6FU19txZqLC9HTnpZkaHrJXqAOeHVPey3VXdSJT6ZmQp93a6MRyqb9uuXJRZ1g9C44Py6tF/GhTK2CfD1IaEMDaLLdVlOqQ0lzsTzyzmSULCJ7GZ2GFiPv20j+HqxkjzsU2C5GWMY81+UpHd/b24U/67x8ESSNe3db1Vm989AuB/nPrn49u/3SSs3p+TNXVqb+fr+mRZ/VTBodX6nqBs5lb5eibxVbIKxqKCIqJvctLkVLzw==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : BTN_Modifier
+    identifier : 0x2f3943a323af70e8
+    internal_properties : BQAAAAUAAAAx9nHPZ1s3I+09xbpaC4PFhW679NmjUD6YQTc4kC8Gwkxj79+2RMMfw1aph15YlVBMuXL90AX6cnxxYcKhyps8/oC3rijeUN8KNjM81sEtmYvNo8VtMGhZFEr4jpPxv0xxFQfYrVU56e74UvkB+2WfkXp7igrZQzhm8nurYGpkuIe0jDBT22yMdQm77mBzON3b7h0Ho282WlGf44LBI1kiOOhshcu3too/FqKTswqGvF3iPA6paHJHbxwbYOkdBl5fEB49wkGPiAmk1qpQlyBFYeZvA3C4b4okSBhfR3Ys8f/apuwYuozb/DhBMhxqX94MG5iBaIp+9ufm/6RI+hq4P+Z9DF9kkThhTot8IUdRwVd8qihet147T3pzj3xIkC2WTLgHcgWRX9bopCljIndyrUACa+8P439haUQ863SEeIN9gRsBulTBksV3ZbGydsMMfYX3W3XLTatYnUJpukuNIiRQuVSpsVMEq3pcTaP9erJIwoyW/80SNGuuar/RfjmNVKt2x6yyJRYTTh5BwWeSqjFMr1Z7YAKLvMJMlkHlXshLoBIaj3sSLgiXHqxMokJRJy4DjPeMgJEnw2YArcDbzIAjKqywfD74dqUGVu9b9ykEGhvVxe7xT876c4dOU/gSMj5Z/b6l+3Ew+Qo+uwpI4r33t+4Daqmb9hCigLycYNA4Y/F05W84kgMM2TNZtoWkqHT6giOcM4TJTglLcrZPapjHLPctSK6b7s4+jU3gjwLCdYBDkyOJMxjUA0rp8Gh9hAREunoeRbvU+Gipcv32G3NQ2KqQYrX30h97817lxUwyEZR7m5+lS+ihFeikXcT6G06eYkxtCn4eitYksJL4wd/dhzQBQdDXLM3OawFdWYrRn1RTPlcx9PxG+6IZYYhlnqQudLHYTXQIptW8s84T7Vkj2NunwIwmhGHiVMp7J0j9mtbEPI8qZQsB0WV/mRnJ3f3NeQxJ8h8/QkvxLkyZyFgPAg9jvwyUS1DR0ZLIxr3Fk7WfIdKUCjzWChlwLp5dSe9X8uio5W8C+QRbUVefnNlPYo1eKYQj7Cw0FPwZqLvyUEg6YSyRHRDmWGo9zQyFukqZUA2VqEVTQaP8nQMC085Sn3K9tVHAqRVn24DyxILRljpP2hvQYMvn7G6t9kTvujT1AHh7ZUFH7bd8ZKTvqR8UV7Fz1Uj2DCW80Ck35VFeMzCOxisXvOpAlcxjHU6VtaxI7bBIvMO5T01tvd4d
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         GR_SAISIE_BTC..Visible = vrai
+         DonneFocus(SAI_NB_Bitcoin)
+         MoiMême..Visible = faux
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : INT_JAIDESBITCOINS
+    identifier : 0x2f3e058201eca24c
+    internal_properties : BQAAAAUAAADY5L6SUy/b2L33Z+mpSNv1564GGkyLtXSDEG5uHDRs5ZR6x14wgJTNvFM3iuqGNgIB+GB/WSM/InRW2WEHcrrTJCCjkhRvgxkPwMzfq70o4qX4SD8NYUQW4lC3tgexB5vKOVMNzlueCDl3ckDeDYzh7zRAtLnkCm6WLDNguXGqIn8QybmjadRrVTh3X3myvHq0BxIFzWF7rRbQiU9+SMdN6UHZ8yfUOZfncObKAMvS3JjSTB+R1J57unwPg+3lOTBnwx/qdetg09z7dcY8+vYD2I/MckogvUGvwePbHGF69NGQ+QltoHmgG4qJy4bOVoNq8eCJBOKBlkRCOoCVg2faxJh+8Sq8fE3Jl+hGsic2/eWVLFbWT1u2Izuf109jXyUFG98POkqj7yVIhXx9ZDTutWGarQ24lhh7mZidf7YlMynOftTLqPIBp+zIxxNOdl1rKKRpZEQT15XFSy86RQSLYWKu7w1yrrZVrRI7FEJWznx5MBg4Bup8ob4qGiMpsmcaUmMpBSc67g0DF2geuexaWCHGPedFvBL2t6z7TZpaQKsgq2fILDNXWfGdAU6Y4BQcal8/kG37kWHJvYIkQTiM37iJGTE4K1eeVY3gNK2xrkt6ke1y5CaLeI59jNc3j12DY9fobW73K683msYYTTocLfCrQ4YF79ANRjFxH4ZAOf+2OIKwpQzBn222184jK8xbT5dEd8ksm5aWCuTAodNNm5CBUp43KEk3F2gpKe9IO4Nbjw0aJ5N4Swm7sKanD+RyApDsfIsurf6A5QqobMHULs0D4AwqnFDXwniRBySeiEgb4klSzeEyete/dTy3xlFgv3cBFaaX7RKc3ocYcgpDSeaP3X+NpED5rJd9hRj83CcUrXhKkXYU8g2J68CXIkDcmpmJXE2A7ZIFWVG4MogUHQ7UaT17t+HUHaI2VaCti/hovjWZpSgqgJAJOcp9F6R5O+QIwOq1ZymILsB6TMbewZrRwnk6ln6AlMSQQL85PxcWM6GwBbkJ5gxaI6Uz5gBFm4EW9DeEICJDWRVhNop7lCrDFhJ/z3su5Fpu4rZxtkVhWfXRagHGIIS0tejZg5gt1qx2sEXHZwA7a6a83Io9Ykt4L+gT6IZyAHKMPoi+BHLELOWl/Tsv7L4Pp61T5efUU6DLZdWM3+PQ+ba7fnSuvOWjfBzcruv+JM3jIqORh7CDXodZjohXY3g+DqmIK3JQ/DyMmu2Gs7LtnGBF85Z8ciEEmlHwnqw88ME8zUdUPYBc+GOYVE4hllnMaNCepSaktrs9i9RLQqmVhppX96kri4w+Zh+FfPfEn93pazRZM2+o3BAv8ncIFv7dtzxqfI9NF16GLzVFC2X7aS4YQikBKpbv+q3vBp7LJQis2w1UrQmThTEt7DTHqnveYOCAvLcvVTODqduK+2KmPW0kmbdnXjn92vEeEEJGd/4iZoFf7mal5WKi6PRWT441ViwQGwxzlBSBowz9/7ZBUgNORTBKO8dwyi81YmLEzsxx+J8qTIMXNAZT9cvd8huwla1CGArrq7+uZmYGOTTucE1Jy3yUB6fuE5p5bdTHGd0EF2++gjugijQDOizfOno1Foq05+CgmUnM81Iiu02vERmpLSHI7Wt+MUwxpTGun1V2zTiZ+L9tjIuDrvhSBPWJAYfN1JykreNEFM24WwHBMszb2cLQfOI51YcG1SEXMQ==
+    options :
+     -
+       internal_properties : BQAAAAUAAABxYaLkQqyi9SIdf2j4oaPv+MMVtDoZ7s9Ln71DhvdBTG51vpKijtwK5dlNXZEqXS7Iw+RRi+yRhM/4zz1NXfepnFbkizorXmenLl/nJJykanaf7hkI1MIiGxnb9f5zQJ3UooBttmToMt3cbFmRhm2t7fcxgU23AIu5s22/NMW9lpEveg4jmODzTqTFra1PuEN45aGS7AlrLDjtqA3dGhsgQeuuNClv+5i+BJsOyjvGnFussSwC4jpHbQpKbBOURpNYoKNWDq41BPwsaSfWXieliPaTIgmmTu0+oKkRso/tBNU=
+     -
+       internal_properties : BQAAAAUAAAD+wVSbL10og3DGe3dQObSutfQJx4xfIwIw3oR5rDv3RY5eGNV3jXcWrvdoZfrVsLzcTOPXacsqLrbKuO0GihSCAjt8UhPSZbZE0SyDuGkrJhrcOW5SxvGAjqEhi9jR3yzfMg+tOG4UNn1kgeEa+X5oliyuUpZwnu9kMiz7nkMc0izazW0CJ5QnRbco3duh473jmR3QWlW+peZNCAhSjfcdIx2IKN3TaokEMDZu/CdvqBNC3zhLJP3eXD245K98F2VoQTa/1q3wTgw4m6rYNQwxb+HFDVdy1Q==
+    type : 132
+    controls : []
+    code_elements :
+     type_code : 155
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         si INT_JAIDESBITCOINS = 1 
+         	GR_JAIDESBITCOINS..Visible = Vrai
+         	si gnMySatStack = 0 ALORS
+         		_debutSaisieNbBtc()
+         	FIN
+         	
+         	
+         sinon
+         	GR_JAIDESBITCOINS..Visible = faux
+         fin
+         // sauver le dernier état pour remettre pareil si on relance l'appli
+         SauveParamètre(MONTRE_JAIDESBITCOINS, INT_JAIDESBITCOINS)
+        type : 17
+  -
+    name : LIB_Total_BTC
+    identifier : 0x2f3e05e702152a54
+    internal_properties : BQAAAAUAAAD8ZdOdD9FSESJvDGx8y9upPmUK0H2Pk1YBg0v2ThiPbBNkMffIyJiVsXDpKkSpg10ZbzKboT8XwHnL+39qqXKZvtnjYBmNUly9Y9RGVjasOmGBzerA3eqkB9I312KSTrTDBSRw38XUakOLcDl6NtITpIKyTD0h72JSIZ6U1wCM5mu0wGXf4+51uPv4JnrMESW7PsB5uB923KijaOsDaR+Nodarec8HW6yrbsNCnjryPLteyGGqKg8zEjCZkMcrfcypzxpSDo+hoS5WmaDlhsbz4eEJOandnOiR0h4BTYViuwfjyar6YRY4HcR2e4YOJgkRe3Q7aHOJVElQUe5nqGkEyYqUQdSCms4C1GxAa8B5EBbWtPaou1QLp/5pvcfydU8OriHLhewODkhGlijXXcKnnx4HXvac51Nvl7+wlq6KprNOBRsnSS7s5cX18cj38AoBon6zu07wlxbeZ6Ma9+Y5gYCylRSwGQcBbj54XmXSElPmKjz+39+T57m9uMiqJp9thnwx6up/tcNWW1YC2HJD7rBpNCLqCfcdllKW+XiZ+S1/qrl3TXM07s558RdVjFydW8ZdMJxgKNTUoJcToBu5XSbu1jz5se02IgKyLpm7y6FuN02Y5Z3dNcCDK4omSZa70IOL4/CMjF9QRsS79MIxtV0Zzyln1aRiSoVN0UctocyX+TmuVUUriKB9yBp5mPVW532hQvbHQD8kYXKjUHAb8CVk+WzZv6+BlpILaeQ3fkKj2t1X9T7C1ucpC7GLWhBm0CBGpOxJ7zG8EzzO2JUGhZjLn2eY7KOBOT9yWRv51wv7h5Dpf1seWSraH618qhsc1PVQpWjRMQ2OadZfKSEpDSVM6JUljQ69jcmn47kMpojasJTLKXqjpGLAmw==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         moimeme = 0
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_NbBitcoin
+    identifier : 0x2f3e05ef021f4c24
+    internal_properties : BQAAAAUAAAB7AthVTbBo1H+n8yRMRRQQLbfn3edIPrWu/sm/fsahgoTk+hwyfpBRG6pai4Gqo+3wCIeAyzW9qbadqZJUtdKVWPUUDgpqixhvtUjKNsQ+CnWOZqJaJ8tGSfrFLwjldPSrk9coEatLJvA/YFiA8dmpcbacdtaEfK6GDP6WhwDsRun33ax0Mbp0QguInsXBrPbVjfdCt13y3lewY5v61JtzumD3lkDQ5mmWPb2SLuH9Yt8w7mrJrkIrRvZbWSQ9KsZ5RSkaGYQOg84EIB/ac+FhUnq/+yoCi+IzkcKUe1nN7iR7LBgWfbtnqJEBlBbnhbGKGJkqRoFmDmXPxtFa3aoEDkeRaU2hCbea/OX3b8YB42rsxTGahppWVWaWAQDkJFqFIyrtDxfE1BbcN7vZdbiKmV/FoNycv+kg+/fVc6N/JR6WaDA2JrtZEU/TqTaXHNG+TTGn5dtwxK3ZP5QuBw5tvyg+qt2E7ftXR5tsLIP2R46qZpfQCt83AcuyM82IVzRNebTc1M7hxVBMZDrzcErUd4SqZEagEAVajHCA/LLLryaK0xmjVeDj/JGfS5uvSWgtjKhOARP518h9jDR4v98I0gapSATJpC1bb0pMt2/Dv5VxIncYJZAsEvROqT+P68KNK9u8/OoRJQuNR6TEUQobj6C5+4eUfd4on6jvWqyKyN0N5AOTZKoi/XchPZCAfS6rvIiEfkI/CBZPmHPF9XP3S5Ih26+wwQX5rxngJmNR+Sch5BgBP0tRVIBGxznaPLJ6fkVe4J6BqqOP
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         moimeme = 0
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : Evolution_sur_1_semaine
+    identifier : 0x2f3e07e203a6e65e
+    internal_properties : BQAAAAUAAABIaLpXSJVLK+YWU7V8XQintcdjFWcu37fJjP+F33d4ooeaJFW7f/7FQHDKAG0l+ieQkkQU0Cr9DLycaWb06g7NobrNvSSAcwy0c56Jf7fQLkwHYi/7gFPQUNajNLVKQD0D/nvkWVlayfYi85j8Wt2bxNjS+ezOehEaGFnR7L+1aaYrXBl4vaxAPly51tU4yASKCqrjgLs5MdJ/Hx7Hur0QbpfhedsZtDU8PRWxkXpB0akvu3XP6rmjWPavTEjIiC/ANbSvAcBoVuMXBGsnsT0wMcB7E3P3Pr+GviZ9W4BIjARs3BEW34KwKbRWA77JB/e/l3BQYHLChjv+T/MdYJFAcWzKdoXBwn8ky8DEj7+zisvH+v42Llz6r6pzfE6FKXTj36/ytL3HKTwfq1bLLM6NW/2DuwaM4uA21GBxtUyH4rxSll+FXyw7+VYZ5ur+a8e8Bzjr5I1lzfGZbmEC/LbkUVYuNsdlcNKGHgo3xY18KjS5b6e6T+mckpnKhVriHTJo3o5Pg/scRmV+0e8LeR6CBxfhzB4t42vyiyFxdAz6P3gTn3wlTbf6J8+HenrIBbQKObdayLkMHp8aznkXNKDCxpn0uZ5O+W8JDP+2Fqg6Liqjq7R+bRoDUoqtNBonThIwSqRLs2XbDzOS422JbDIGjbAqU8nPLxSUYr4xnZK1I+TAOcQ39DxwxYCSJTaUMuUt90H0FLov22oDlA8=
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_Evolution_Semaine
+    identifier : 0x2f3e07ed03b213a8
+    internal_properties : BQAAAAUAAADPnD2cUgXOStLm1DkhmohtmCDsZJN2A0Ynb8lXkafUMde/h1Wz3FnUNSPtYQpJlDMi1xr4ZgvDcfernkBhEUp5t3+qh0G11MyLFQCRpmCGA5nvCczhOkV+3LNuuRunCUDcHVvR2wJ6eVexVObrw8mYpJrS/bC9Y40DTuum36BJVDym3TFVm0Jd5AhNVfHKtmBpfQX/CaIoVgF5haikovhsz8g/9Ebfq17uyLgoKjjCEj+n8rQwBz7nz4/bEzbNE3d3rDlMrUF0daahIvVKc4iFMG6wefnoEEwfU5bOZ8hXpYcWthccfktCyoKOndsXUhN4hN9GLFzs0mC7PJw5P7flBkUApE0zSXygKBCxIOYjhRSlSnZYfOUt9tge1q8p9uN1FgfYHAGs0E0PfnzB4D/nNb7E6srCgSD570sBfQycDgP9jQkytMhy1ms3XUiWvxhqMb+7HOVlXEyNjhwAemsJVxRinQysbqW9BO+a5lm0xf9khy1PFgHWeQnqhmFf84XYgLXs9YXL1ZrrZTprt2w5Es3dbNvNgAkx5Ct+vr9m634qnFw0MNvL/zAu3gtzww9y84v0N0objlc6j1Hrky/KFZaCgaqMv4TvZenBLm+30mFB1fLN9kfkdT4xWC0HS69QEy3+sHAvJnwZI4JR2b5B
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_Evolution_Année
+    identifier : 0x2f3e0ae106999b80
+    internal_properties : BQAAAAUAAACiyrIoph+wmUqVqrdc/4/wEuwRbeX7+UC17QkNQjljX2RXiMIZzTlYNOlY5q0hfPNJLVRTkOYGC0b7MPWrg5KLGpl8xgy/bYbbiJlqcmAFsXHzdL3yNxRL2YrtpLf7uv7YyOdRMJWvX3bnsVz7cjuyBKzAVuII4pphpdhcqlLKLJJtxDMRJL/tYQQzJtjb2YnLCvRb5MpZtROa5I2Gdv7Fo5yCfvxr01uesfx54cQQCMyiJWV+trxnfT6GFxckAqG2wKEP7T8ncSK+f+dMh/swNZa0hEMf3MA/Cip3x17kslRrVRyfXQOTxBxhAi0EPnXPse1VuG0YW6/Sol1LS7xavGN14rgViP/4n5avWtkHrvEg2d39bQedGBjE1DTXg9ncLahb1edWsJWpCMDeMhfGBn3TQGdDBQPk2WFqPNhTVfaoIOZaEW2HdECCBtunl3OZYwgwDP+eD0kPJgBJnxPYF4BUroNrZqwBBX8FncaOmz1F+g4mHEK0Po4LNWIXoFgo/NFjlryngVx+OHPKbHY+OZaT9D/tENQ3nmq2gnqOtJrWD2vXV9LIwLTw8IiAmO5NQFBD8Uq4IOPBsJLc/062M5m3uISo7EqNibYi84ywcHkNX9AuDp276D3yA32jkZzpdQwKrZUrXNa94MGBr2idV5M=
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : Evolution_sur_1_an
+    identifier : 0x2f3e0ae1069b9baf
+    internal_properties : BQAAAAUAAADIhpejq6bZlTr7STaDvR+ZcB3XwT1AHxKVkXFkn3mfWkw1TwZlP2coPP+eShhREko2qGZ3gIZTQCu/sIYRrKjuREtF+7SCSkUPXWO9dKupbWAak7ggBDZWrVcrKptKeUDaoQicb+Fpnmulz0M/0Nprab9+r/0mDepRteCT/qb3uf5qnIzsWc7AMMPkVUT3aWzHERxv9aoorp/vwruVIrw1YLtFYV5p4roowQ77DnrIxrRsqrz56tV8V26P/AktC91j4PGaLbHOaOr4XM8KRs0x1eqV+idZWIq33T33hhyEdYUOUtVV3MryfKoZhua8IDZgg+MxFl5yO4/Xvzn0fMdsG5hbz1tRgeFLSSwkYAQj4Y4i1XXJ8wyPYimp2zbjc5PV+xaKBbQVVR4l3AwfkoIaMX2yWjXNEJfuIJBhJDZhpzwDOf7T8TQl/3JcjM7iHHHsWeUsEo/FIctXbt+SuIN8g/1TR5VGM5rAkZMgc3UGBoyD1dYQy3No55cYPOuDQ2VIpc8yUhIvGn4qNC8Axpc0/9EqByG6BUWofegPFd/vT5+BRI7DNNQ1Eb0BqAviqs95I2rwECSW9yoRhQUgwEZZTmXZ9fsVaTY+LIFvxyeCywpOHF/rtbyzijer+UKEhtRd/HKpcbdCTy1ICpmXB8tmqDmKKrD73zQKXT7PqsYSms3zicNGcs/xX3wLkHXdhnaGAj9phRo5iIwXvIpZtibsvtuCiBGMKTg=
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : SAI_NB_Bitcoin
+    identifier : 0x2f3f69a902f7cbc0
+    internal_properties : BQAAAAUAAACHMPdBqGeBxHG8qmI/fHs1/cpZBB2ERFfXiZn+wKGtgnLg/kPz0rgnS5SGdzCjoeQ/uKDiCTzVHA2HPOavsY/f6dOfn3gOX8gdlID1CrXvlkRWzqVX8t/VeO60802+yFohDqrdIJsmv9DPW09Ne8B2pKXUHRWALDFi6E02TJV84Qf1MU61iW4xDUc7nzI7y7yH6Ld9eqHDwV4zPNzbvG7Lojvg8x0KVqiMF6biFTs9cUIldx9Ptu0WevSKxdIRWEvp47hc8cuhke7SIGHDpp9Dy1C8SLyV2bT7uHxXlfTCCbOOvVyxuzMWt5/xwlSXOoOaTJTZ9HEezz0fi+gY2T8tWtUfbnjOTA+liREy1OCahnhXACydtH26VKJJ9oulVnUPuZo+FzfV215KT41gP+VpxsktCjeAmEtMA6+Tjg3oRImfoULhhJ3VLLTWHzbVFcMr1MtSGZrP/+HjmwJoww9TCle9SJX27LgpIV/+BMlipA1RiXMHgTdRL/jIxyaMCRvhd2jJKr6Hg2iks0V5CW1689vmDIwZnpKGAvp5r2tW/1rYa7mpdfslRu6N/dUd0NT4JsGCIqvG4sDybiun253xD1Wb7DrR45O2sj4xtiHZqNljiX/Z2blw+JyXg4MZg/rJ27M0d1aFufwMoLwFnhbJr/wEBT1uXc2rB3LoSS7yHRo8b5Qu/BqL8WfPSTV0CYvcdOXqhdM9lQ7FvwdQT7nns6jy7L/n6r6TbJyFq92DtyZOsIGanROPC1aeNChwqUivCyp56VpXUtbaIaw/CGwYin3V7BjtM2HvMQZ7xuofRo8f4h2SJW5WPZRGGNvIv/MDQ6u1oeZrMtLis48m26+zFnwLTRiyiQD4lUIbQMPkGxhduSz/KXeZf2lxwwTxY6g6n8OQ8Vshs40H/BG0v/j6Oo4V8KkaooqoEBU8cEp5ev1B4OskPVC2wTm6Bj4gClShh6Dwhk7ZpgNpqNaJRMA9QleIcLM8dokt62DnwgIfektK2pMCMRYiTGY1pm4ePBdYOlUZrwny+XjakvesTwTNIfuC0fU7XjJTPEoQp5Q4uGBDyhlAW8HTKUgiFxTVpx0OWfSpPy8/rLkVY9WaDtO1b6DDkv7bakE6njV/d9f8y8OcVDmjTDXr74+/LiLvqybAdmxWPMaK9zPuQNX7iQuBxMfvPqSHh6Wh6qX8/ge9hx/glytH0sRtWguRxlDp9qMaZcdyKs+TttJ4Z0pis1I9joGmI7bZb+avXgMzCcuO9VJgz7h8UbNDBx35wkV/TIccS+7CzyNDdV3gonmswnFtnE/AZZPOjqN6vsxjlXvOYVy5CoU14pTXL/iCb6tqJYwwEp2Thk/cO3iSL2d8Wsgrjen3tdWBJKqxfmsx3F9lQhHYLxNZSBRumqcLtY8EuHKtkUrr+ZaGtuiIWwYtOPsyY9hwRaRfE4Ct6yk9Ns5RQPzvcNEicLRoaxkAeEXOY+yQ9RoIIV7rZ4/EN5t52nx2xQOst0irElD9zwzET8fQPv1PtJ/7pfmEdiZyi+XHP39Gp0o5/ur5dUocDEjHq2B1ng+FpCX2Z+s+mqOtwDlfayyt+us8EQEsVLGid3MIp5oXqcvAAV2svac=
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Saisie d'un nombre réel
+         
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_VALIDER
+    identifier : 0x2f3f6a1b037e893f
+    internal_properties : BQAAAAUAAACP+EZI8cXZu06vLhF5X8ezBtV6syOrkIS4+PNfTAqxv2YP+E1Eixl6YX/UwzE6AGar7LWavl2xyn+jrEKpvFWqwsWuCn9nQD+XnArKzvmJzYQ0fjd8ncCt3GsPRw4k3YPBxLrWLHFZDx35kzSzq3YmLtQ1RxsOocINxpG9svZPfWKzztyTpBRNTqds/ooCJ+W7ZEHBXtSLwJP5KJBfmCZoC29dr1FPmrMx+109UtC1+r/dj0eWovl1i54P/4bcGp72NWYn2eeNsbU0S7a1pp0w0uxmf7yi3hXXf6id8+j8CPtCrUx1AQmF4Enuwil9xXkqIuzaxHb/Pn0FHDybP9FXtmq6+jldB/dKVNpAY+WJYzj0qe21N0gBRu7ge0Z2yQU0DXAeyM3aQkXWRJKtobLr9dLRgjFW+nPD6ww86pKqkrF+ZM1OG8ctpEBXbpClrEFYzdgzvQ8f91fLqlfQlZJp1iKMsBchHfLOn1ibTX7Arc65X2c1sMo4AttU77VJARc94ag6dzwNpe/j8oQIelg3Q2++QjJ0s2eMVsdgg44ygCvQCPexrsipQj+yv7aUD3sxTKRlUtAE1HS7Fp+E/i9LkTnH3rF+ygQ/+DU9/dEpLbIIwd4tIpVdyNBayP31RhBdrdp3L1GUbxWn40XwlFZ+MHs9G+HgTBx5IPTT2xIMgq402YEHXO5eED6/5Y7NJ2uJvYQLbEHSZDmReD/MaDF7AlmDza2IsxJhN/kfd8/T/xRwtN0R4KH5Vl9+S5002qyJPPNu2p+peyF2GISYWCVuEnfqE+gOleZPPn5IDLArxvF2FBHyNttwqpYR3i1SzfrGw7YcagT9y5u5WfoRrUnLN2D0hwofevSXGvJ+wyqQH2QmR2pdxKyPNfoGAIMO3Gb+3sCwwC/a0mHIi8i6omKizJZd6U3GzdPKCPArDph5ZGI+qWs59d315jukAA0dYkd4iLL9CzRJ/s4wdFywXmlt4eRgAV3XkiGkbRoM7g3P9ns43pAYGo+q6BVZKf38Dr+QV05vb24eb1of0vFppc4a4K2unO6OIzXxwDEJT5FQfje6SGKCu/Y2+ryi1rrUmBBn+Kn8rhayItibB/H7QIHDhVnfBFWqWrWloEeX8PeiCmt5otw3LF2Hukd0L692pnfwUXUdmwIa6Raux3aq6cZfN5t3sIt9N0KhZyY4vEl4Cegu0SZHpkj5hH7VWxy7
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         _finSaisieNbBtc()
+         
+         gnMySatStack = SAI_NB_Bitcoin * NB_SATOSHI_PAR_BTC
+         SauveParamètre(MY_STATOSHI_STACK, ""+gnMySatStack )
+         
+         _MAJTotalFiat()
+         LIB_Total_BTC..Visible = Vrai
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Annuler1
+    identifier : 0x2f3f6a5203946055
+    internal_properties : BQAAAAUAAAAkr+qDpVbE4nHfMunB8PJ/uZXoIHc1c//FZFBnE43rL2Bd6y7xkMaTOoEOL+B4odp6oCqcrc9FUa4R018SLXnaNpkCMVLPDWXRjI+KZdPct7MayoaSInft18ZOZ054XX9xVP9FGZDQQYs2eEViHEEpGmnQHf0vu36g7TCAaYqrVo7VLtBud9w91S+1y+P0iu/uVA4fZLpBNuetmR1NqsiUpBsBhpyQOfXp9ODebKYQHXYAz1HmkJG6A+0tx/mW6kXT4KPQHUKZS2Xtjtd8YWqUN+6pIdt9++RSahscV2yn7XVHd5WzvgrUwdWpO6kgzYcZ0tN0O7SCvuu4e/xGTPkUMoYxQ3j+eeCz/z4Yj2GhReL1aCa8D5VfqFWF5jmDe5amjHpGj77XTwszVLoqJjRIjk7TYzVnd43GloATyod6uNZRfcanxQMePps9KgDiJYhg5y8ic4KUOymGvHxZlTcRa6mbI+dxBptq8AT3DqlvKVE0ogYxKrXVeEnbgpwB9ZjbCWUVcTKfm5rhFx4kPjhfvKoh90BnBjeXhl37k9EMWOxz8b//IH1VWSg7MlOT63h1YS+QER7m7jsKsN6abCfULrTS/d3auOa73kf3ku7+5M5obO+zm+b7LRXHIcUcwOxx+ze7mfo8Yg7/wEJ2thZabgfOIS+8jhQJKKNikFaKAFyF+cJACKBCfE0fXiQM5H980qxSq6qM6uh8hIoGbV8AxveTC24cPWA8qpfQnSm78C7Y00oBMT/UqSJI87Fd91NO6yKPa88gFY/WUA826daFTbo461YVMTSWi6eFFbCYiKcWgQtqDnjyCCzLM3Wb02/Zm/uRNUkbkzHzXUKBHYYuW04NH9uR5Pni61pAEbLN+OLecpGRsz5tdBSZET4bXmfTwBUyZqxgGZ3IDdnQk01sQTPzHJD2HoqHe4qAW87FXm8JqAkCxCGIztZffviJRkiQGy9s9hhk+YPVNG+fPPlHXDW/T0lOUNZpAaURiHRk9d1CM1LjPVKbY+z9WlOZg45e5mo7jjVYCr2BJiiNHHElvisozYSNlLkAucBH3U49IU8aAE9SjAGXPRXyUmuCKRN26Rf55xWcETLrd5HvrvLatS0TdwiKHoRgDEFHziwmozU0NqzKuWqYRaNd/pRfqdON+dHHyFMrvIoUGj7R/CrJcqKlYleWbU0biTUoO22sdASL5no3Nhgu4KSYww==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         _finSaisieNbBtc()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Image1
+    identifier : 0x2f4d3dbf04549220
+    internal_properties : BQAAAAUAAAB5G/Ybg8IAkwXwg0FBK2yPItH2C3YGwM1LYkPet1542/t/8wP94f/nzcz5vR411mCw7hS1KlXZN3e0qmBAXGZWvmlmIK8qLfnUAWqYqi0txAoMA/TO31nvec3VRz1e8AH2cB/4A00lm0w8ez+74aRInBWIhW9jd1zMIAdaF4i/hRlHaWbAN/C97iOjmcfcKXz25NbblUCHbKtFwozTcUJT3hDfCld1xi+oz8Df58F3W2bZF/uwSzFc/SfYzR7jT8Ym0vE0ewdSh87jXI1KjEFvHstLaOtdUxbyJSbQ/WSMEAG3Zfb/e6KhHos5vTzf6pd9qcfatbM6OCsITrc48bIFFG3jVjC+Z0yFcaR28QagFP8w47E4jF4DYsQqkZw0MZpOky3d2T7qKEVbbPYolzT78QTtNhtP7ULSQ3oHIt41qKd4jlQdURycSz8JtvA06wURMQzoaAPXN9CtJWWWybCdG3lxGbnPKIjxfwvPSr4yODneCmCZBeNNcAwaRskUIEb1ihsjV3g13lrCOaKBuZFyYXQ5Yks2oYpY8PkGAi7XziXb9QRMlAHiikWLWzbD1MffZz3qQn4Tt0c51N5by7iTebqCV5csLlshg17w/BnTOw3AcuMhwvNUNZ/M4mAHutYAy7hff+0zjCrHP7yVfgLVDZECg6HE/zSW8y9kl+uPkMhSbMndKLhyHsxcrD0TP7bYxku+fGDtHeq1aAff3Dk0/yjk13sZiDtmprwfeymlp7F1QGVW229Xuy8NEEkMP+zNjGI3DxVfRfioqHg3OA8rDkxHLh95WHJkfB1u3GtbzJm9Hxy0o+dNzbdDJhIy/PNZWRWWO4BXD5Oen7bYnxRuv2dWNVdVZcCPi2o3nSxT7W0/XmfhxuiIT6D9XYDCb3pzhD4iSZqMDRDLieakkpAVprf5KaqGYEy+KOL2er8dtJJhKhHl6cOWbuBIxKjVTNJIurXlfII0R/Q4feQpORq8WYZs+eTQsx9idkn+kPCckDYPv1HZEcROXdGfcNa3z7zwdDUnBhAX9DnhgmyWqcHQ9faZehju6qfvWW64Ee+QOhjsz8/BmnrKL1aub7hvQIdG5VxUDvTNkACeYgXzFTPtE89+Y9nFYCxLu26XjJ8gtm1vuhjBb/T4k2oNlMGwNAXOSkzwuUE4Nlw0RkPif3kquaypJV5Iau+pjBg0hNoUIBbQtUkmOvqYuiE26J9bAX45JeNEjm8gRDu3AAZi
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : LIB_1
+    identifier : 0x2f4d3f04054086cd
+    internal_properties : BQAAAAUAAAA92KvegHefQdWlA2lmLCKKwsFIv1f8UeaTjz8L9p9/VDvjdFOhlhCkavXnanu4xZv/FQTtxEMaiAI8+o4uu9xaxWgyaw9CKbd37MKCRO6d75OiiFgps9VtV/Ikb8x7cbrou3sw/bRg/kb/VrVOo4NJTF8p/8HNebumsccMVFKR1G0ecIcGl29+oGwiXt+23O8Vcneo29O4nRZtA/AwkhL/2PSkl/DeOWSKY4nsYmcyZIVsALXluo4RdteihL9qLQ5Iook+R8AhRptn1CnfaEcXBaTs47bKE5+92RuKTg6cgjf8xuulIEh2NuYONHFo5cy6JsEUmamp1oTbrhsvOWq9dMKi9N7qSdZnBsPwTuOxNQGV4ObEBqiYGwPW1pIcpOqAsX/yUyq4sPfcVqHF10AnapJ43mwJGyTSAzArDkNcPZAFJrsLMFtxLxp3TjugibbrSPExB8rWij8WWhG8OmEuKC+KGevB6J3nCMWG8NHZrpAsgIYoKoikRf1g67l/2E4Ue7iSLAuF1Fz47ya35gSLx3tiDmbL3VaPLyS4Ku8wV+C+z68AJDKPlKCo5l5tf6QiOLummFCMKaOTrIV1jViizZUJa2Udt1ZDNtHD11U7oJHGdpXcDLCJDOEsNn8Tyl2xE58dk0QfNU2Pp6h/H83MovXdhz3/kQ6LEI7DWRjLpW1hI8O+1on/pPK3NVUaOtTrHM9zMB5bCFAR0LbI6T5w/XLf+ySoMMPv8aOYSng1mtzS6BZE/SuYse5qVx2CYHTqkXiomA==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        type : 18
+        enabled : false
+ actionbar :
+  name : ActionBar
+  identifier : 0x2f3922c81b3b1682
+  internal_properties : BQAAAAUAAAC/hyxib04vDgbjZOYb8EKM5sdxLl5fRpAbBV0AFaiKceDCtl5mr6a02/fWeacwYI289i0TYjkiRhe3doY1KGPijnD8L/qaAMwxXzpoFjeor5O2HumtYbg0qqX3NNMdxn99mhbjQ88UqeHLtBeSE/Iy6txyya7Rjk5uyHT3x92vtvDGk5Wcu2UBYoYuO0grfe+rTFPCIh2YGM+xILWVrH/XfmRge007aXrvG8q0jCPN15VJP6PSOkl03LpWwOCZuNG98R8xQXqeq183HcVkWnOLEyadEXzuBO2HCmACDMGGVMxldtJbtFEvkX8N4Xg6xfAO+adO95Nsm4QKT8ZHUnmh59t5P4fcfmXrtFFeRVjLsgapemnw0+ba1uf/BO0o1JIC0vs8XqrhO/SCYtUtSVdT3aM7XGypolOtT+67XkKfigcTsvj8muL65zBWZRkrICJsMaC+NQ0nLF15LQiecwE9x+1mo0793yT22EaEiOHUEBaCfQz4
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : BQAAAAUAAAD9bsZn1M6TVARYjWj4I8nhOu+gGtlB6TAlD0d2RqAfoq0sy4TEo8QiblJ/fVAAxbte/AFcNkS7CJ4+89x8nhchETW7wC4qF+pEvDjwVhPhdLDNnHjuTq5LRPK8gdmp8WibZJxKPGrd9ptOZs9cmIKwzFeo9QhBX9wSVh0FYoLOjwHbEllFJh42A5TOopDUo0SK7AlZq7idorjdiW5WiR5pH92Rk+FXO2X7CiZh02Omm+NK6QcbDtMr+tlJYsY=
+  options :
+   -
+     name : Raffraichir
+     identifier : 0x2f4ddb700c788c9e
+     internal_properties : BQAAAAUAAACvWeZJvAvR1GOxiOxvpdF1FIdSp6ZcXXuAmpymFh+PGdh+UeiB4FcaMqdN3QguQOPv1cBHh7JolgldmirsDj5UFTULchSvyqJzAQz7TuawaUeghofDyWA8dRewp39YWYC1zR5uf4uhq27u4fo7aAMJAlRKvS14dZz1gsc9QzOOAX0QlCZupgqnsJHtMjiqluDhZusmW0wCVIGr5Dn0nqbqfUn1YwfgTTkmZBrHnnrlqkw9+Z/TKyi3+4Kff6IE1RWv0DyY9h49vq8SzS9gMgaiZWLpduxF9BxURDI+VHIniGIoMO1iXejzHTG84HUp6HUeYXqYOmexS038uuMsELP/sd8xBDEjs06VeiCDnHwtZn0Q4n3bfcEnlZY6gG6QIQ4wnW6Ul3cojHcic2g=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          refresh_price()
+         type : 32
+   -
+     name : Paramètres
+     identifier : 0x2f4d3ccc03c2dcf8
+     internal_properties : BQAAAAUAAAB7sbPSJ133YkJ8hfmas5YmS+tyO5A+Rac9XnQdqAOBC3XEycc5pfumuXjScf2f1OZsc8yPfG3b0XBCmEStpiLjBdV3yCzw6ThcqU4H3/d8etX4xmVSkuCZsCSQJnFmFAhDKwHdGTsdWlAjXkmTZjD8mwLAjHC7T339/ZCInJ0knGL2l4s9kLH2FqWBFqKLSlOOVQQyp4MsYccFBw0v4JXQwjmVrr/YSRnhwhzFQpbtGdGq9TvuosvYBLLXZC4n/jMpqhUhyaR1QbX/2Aag2cgIaxFxgWH2MQoZgHl2+qFPg77tONSeXNxIJnSI7S3bg/Hvx8IYo6dJv4JVDL8bVbobxQIe6L+CQ1EAONnWZxJnjfjfXlK9AHmw4y6ywxx+grC6VFE6vSwK2rWEMxVYvo+LwottC+sqkTghV0o2Wt5QWPEsDhhSfNsVNuPXRsLVEEqILYp6fBc=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          OuvreFenêtreMobile(FEN_Options)
+         type : 32
+   -
+     name : A_propos
+     identifier : 0x2f4d3c8703a7cdd9
+     internal_properties : BQAAAAUAAACX1GQZPPwGkxcC9LLebkavaqLrvWt2jkhwzseOQ3XXeqdkJfltsRbV60AyuRVc94XO/yyWSewBdyAubzs6YIJy1aGdHUy9rq0FXAwbPa9hziVo9vE287FWWKR8fCz0g9/xRxNtzpC/Dl4Y8vtdIIHHoJugndmtBvIWKsyRq7P2AUVWQ48cUQkeDW2sSbUwYs1v8i9lEBc554AMnJXSmIhb5U2xhZWVsGXQPlD4IoVDWIL7RQ5S2ndVFcwt1UR6Udm1LmuV0S+cA1iabK4igYgdmECvZz6EfwDNddYAyhubqx58Z5uP5WoilrzU/i2qS3o85OQWwa72F+YHUR9/ophWhEr9KFszzMSLx6ha2BQRAOo0d1vSXq4EeaDJDUfcU8WPwYn6/5bJ2/hX2Mz4Ln6VwmL9k9uJZX/sYlTzo9QJlFumIro5YIQxHxOhsBBBlpk=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          OuvreFenêtreMobile(FEN_APropos)
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - fr-FR
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : BQAAAAUAAADmQBRZVUCpLdrmQhPQf3ckDu0cHTI35MIi+5e0VGOnb03blkiI5JyB2uiIpW1dq38D5bmX8Tw644thFykj6juebbwOgE2aAnakjA==
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre()
+      
+      //CONSTANT MY_STATOSHI_STACK     = "MY_STATOSHI_STACK"
+      //CONSTANT MONTRE_JAIDESBITCOINS = "INT_JAIDESBITCOINS"
+      //CONSTANT ALARM_PRICE			 = "ALARM_PRICE"
+      //CONSTANT NB_SATOSHI_PAR_BTC =  100 000 000
+      //gnMySatStack est un entier sur 8 = ChargeParamètre(MY_STATOSHI_STACK)
+      //prixCourant				est un monétaire
+      //dateDernierPrixCourant	est une dateheure
+      //// prix auquel lancer une alarme
+      //gPrixAlarme 			est monétaire //= 1000
+      
+      local
+      	//Init prix alarme
+      	nPrixAlarme est entier = ChargeParamètre(ALARM_PRICE,0)
+      	gPrixAlarme = nPrixAlarme
+      
+      
+      
+      si gnMySatStack = 0 alors
+      	GR_JAIDESBITCOINS..Visible = faux
+      sinon
+      	LIB_NbBitcoin = gnMySatStack
+      	INT_JAIDESBITCOINS = ChargeParamètre(MONTRE_JAIDESBITCOINS, 0)
+      fin
+      GR_SAISIE_BTC..Visible = Faux
+      SI INT_JAIDESBITCOINS = 0 ALORS
+      	// ne pas montrer le solde en btc
+      	GR_JAIDESBITCOINS..Visible = Faux
+      FIN
+      
+      // récup dernier prix connu
+      (prixCourant,dateDernierPrixCourant) = get_last_priceAndDate(gsDevise)
+      // MAJ des libellé liés au prix
+      MAJ_LIbelle()
+      
+      // Timer de MAJ : toutes les 2 heures
+      TimerSys(Callback_timer,100*60*2,1)                                         
+      	procédure interne Callback_timer()
+      		refresh_price(vrai)
+      	fin
+   -
+     code : |1-
+      
+      refresh_price()
+     type : 34
+   -
+     code : |1-
+      refresh_price()
+     type : 230
+  procedures :
+   -
+     name : refresh_price
+     procedure_id : 2249889678534841022
+     type_code : 14
+     code : |1+
+      // demander a récupérer le prix a nouveau
+      procédure refresh_price(bFromTimer est un booléen=faux)
+      
+      LIB_Prix_1_BTC = 0
+      si pas bFromTimer
+      	Multitâche(-1)
+      fin
+      
+      // appel d'un webservice pour avoir le prix
+      // par défait en Euros
+      sPair est une chaîne = "BTCEUR"
+      sNomJson est chaine  = "XXBTZEUR"
+      // si on veut le prix en $ américains
+      si gsDevise = "USD" ALORS
+      	sPair     = "BTCUSD"
+      	sNomJson  = "XXBTZUSD"
+      FIN
+      
+      
+      // appel WS + MAJ globale FEN
+      prixCourant = _dGetPrixFromKraken(sPair, sNomJson)
+      si prixCourant = 0 ALORS
+      	retour // invalide
+      FIN
+      
+      // ajout a la base
+      add_price(prixCourant,gsDevise)
+      
+      // MJA Libellé liés au prix
+      MAJ_Libelle()
+      
+     type : 458752
+   -
+     name : MAJ_LIbelle
+     procedure_id : 2252399163494389017
+     type_code : 14
+     code : |1+
+      procédure MAJ_LIbelle()
+      
+      
+      // MAJ masque
+      SELON gsDevise
+      	CAS "EUR"
+      		LIB_Prix_1_BTC..MasqueSaisie = "999 999 €"
+      		LIB_Total_BTC..MasqueSaisie =  "999 999 999 €"
+      	CAS "USD"
+      		LIB_Prix_1_BTC..MasqueSaisie = "$$ 999 999"
+      		LIB_Total_BTC..MasqueSaisie  = "$$ 999 999 999"
+      	AUTRE CAS
+      		dbgAssertion(faux, gsDevise)
+      FIN
+      // MAJ libellé
+      LIB_Prix_1_BTC = prixCourant
+      // Total si on a des BTC
+      LIB_Total_BTC = prixCourant * gnMySatStack / NB_SATOSHI_PAR_BTC
+      	
+      	
+      	
+      // ath ?
+      ath est un monétaire
+      ath = get_ath(gsDevise)
+      // si on est en ath
+      si prixCourant>=ath ALORS
+      	IMG_ALLTIMEHIGH_TOTAL..Visible = vrai
+      sinon	
+      	IMG_ALLTIMEHIGH_TOTAL..Visible = faux
+      FIN
+      
+      // calcul évolution 24 h
+      prixRef_jour est un monétaire
+      prixRef_jour = get_price_start_day(gsDevise)
+      prixRef_semaine est un monétaire
+      prixRef_semaine = get_price_start_week(gsDevise)
+      prixRef_annee  est un monétaire
+      prixRef_annee = get_price_start_year(gsDevise)
+      
+      _MaEvolutionPeriode(prixCourant,prixRef_jour,    LIB_Evolution_Jour   )
+      _MaEvolutionPeriode(prixCourant,prixRef_semaine, LIB_Evolution_Semaine)
+      _MaEvolutionPeriode(prixCourant,prixRef_annee,   LIB_Evolution_Année)
+      
+      // MAJ contre valeur si on a btc
+      _MAJTotalFiat()
+      
+      // gestion des alarmes
+      si gPrixAlarme<>0 _et_ prixCourant>=gPrixAlarme ALORS
+      	// alarme !
+      	notif est une Notification
+      	//notif.Titre	= "Le prix du Bitcoin a atteinds " + gPrixAlarme
+      	notif.Message	  = <§$0000§> + rc + LIB_Prix_1_BTC..ValeurAffichée + " !!"
+      	<compile si TypeConfiguration=Android>
+      		notif.Titre       =  "1 BTC = " + LIB_Prix_1_BTC..ValeurAffichée 
+      		notif.GrandeIcone = "coupe.png" //"bitcoin_orange_64@dpi1x.png" 	
+      	<fin>
+      	notif.ActionClic = "procClicNotif"
+      	NotifAjoute(notif)
+      	//pour ne pas notifier 2x
+      	gPrixAlarme = 0 
+      FIN
+     type : 458752
+   -
+     name : _dGetPrixFromKraken
+     procedure_id : 2249892186795866821
+     type_code : 14
+     code : |1-
+      PROCEDURE _dGetPrixFromKraken(local sPair chaîne  ANSI,local sNomJson est chaine ANSI ) : réel
+      
+      QUAND EXCEPTION dans
+      
+      
+      sUrl est chaîne  ANSI = "https://api.kraken.com/0/public/Trades?pair=" + sPair 
+      
+      sNomRech est chaîne = sNomJson// ex : "XETHZEUR"
+      //SI sPair = "BTCEUR" ALORS
+      //	sNomRech = "XXBTZEUR"
+      //FIN
+      
+      // demande les dernières transaction a KRAKEN
+      bRes est un booléen = HTTPRequête(sUrl)
+      SI PAS bRes ALORS
+      	RENVOYER  0
+      FIN
+      
+      
+      // récup du résultat de HTTPRequête()
+      sJSON est chaîne ANSI 
+      sJSON = HTTPDonneRésultat(httpRésultat)
+      
+      //Trace(s)
+      vJsWW est un variant =JSONVersVariant(sJSON)
+      vJs est variant = vJsWW.result //.XETHEUR //[1000]
+      
+      //trace( vjsWW.result.XETHZEUR[1000])
+      
+      //soit bVjs_Tab = vjs= vjs.XETHEUR //[999] //[1000]
+      POUR TOUT _Membre DE vJs..Membre 
+      	//soit nNbItem = _Membre..Membre..Occurrence 
+      	Vjs_Tab est variant =  _Membre..Valeur
+      	//SI  _Membre..Nom = "XETHZEUR" ALORS
+      	SI  _Membre..Nom = sNomRech ALORS
+      		LastItem est variant = Vjs_Tab[Vjs_Tab..Occurrence]
+      		LastPrice est variant =  LastItem[1] 
+      		dPrix est un réel = LastPrice
+      		// bliondage valeuer >1000 000 000 lue le 20/10/2017
+      		si (dPrix > 100000000) ALORS
+      			renvoyer 0
+      		FIN
+      		
+      		RENVOYER dPrix
+      	FIN
+      FIN
+      
+      faire
+      	renvoyer 0
+      fin
+      
+      RENVOYER 0
+     type : 458752
+   -
+     name : _MaEvolutionPeriode
+     procedure_id : 2251245973362866515
+     type_code : 14
+     code : |1+
+      // maj d'un libellé d’évolution du prix.
+      procédure _MaEvolutionPeriode(_prixCourant monétaire, prixRef est un monétaire, champDest est champ)
+      
+      // calcul valeur a afficher
+      SI prixRef = 0 ALORS
+      	RETOUR
+      FIN
+      evolution			est un réel	= (_prixCourant - prixRef) / prixRef
+      evolution_formaté	est chaine	
+      si evolution=0 alors
+      	evolution_formaté = "="
+      sinon si evolution >0 ALORS
+      	evolution_formaté	= "+ " + NumériqueVersChaîne(evolution*100, "4,2")+ " %"
+      sinon
+      	evolution_formaté	= "- " + NumériqueVersChaîne(-evolution*100, "4,2")+ " %"
+      FIN
+      
+      
+      // Maj champ
+      champDest			=  evolution_formaté
+      SI evolution>=0 ALORS
+      	champDest ..Couleur	= VertFoncé
+      SINON
+      	champDest ..Couleur	= RougeFoncé
+      FIN
+     type : 458752
+   -
+     name : _finSaisieNbBtc
+     procedure_id : 2251636682244325542
+     type_code : 14
+     code : |1+
+      //
+      procédure _finSaisieNbBtc()
+      GR_SAISIE_BTC..Visible	= Faux
+      BTN_Modifier..Visible	= Vrai
+     type : 458752
+   -
+     name : _debutSaisieNbBtc
+     procedure_id : 2252036414850702449
+     type_code : 14
+     code : |1+
+      procédure _debutSaisieNbBtc()
+      
+      GR_SAISIE_BTC..Visible	= vrai
+      BTN_Modifier..Visible	= faux
+      DonneFocus(SAI_NB_Bitcoin)
+     type : 458752
+   -
+     name : _MAJTotalFiat
+     procedure_id : 2252040868731842376
+     type_code : 14
+     code : |1-
+      PROCEDURE _MAJTotalFiat()
+      
+      
+      // MAJ Libellé
+      LIB_Total_BTC	= prixCourant * gnMySatStack  / NB_SATOSHI_PAR_BTC
+      
+      nbTbc est un monétaire = gnMySatStack / NB_SATOSHI_PAR_BTC
+      LIB_NbBitcoin	=  nbTbc
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAAxBgMyxFfHLlFtvcJcmxOo20t5AMiI1PtN9QGvnVF9/HkWgTwywJNV8FG24r5Z/whlZgcJtwcOfbCL5SMZzBoW3A43zyEkKvRz2w==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1f3922b800c9d89e
+  internal_properties : BQAAAAUAAAAa2Zm8J9E/zh+/WIrVvz1fER/So3PB0gjQuxc1xKQVWY4ZDm5lfg==
+  strings :
+   -
+     text :
+      fr-FR : "Le prix du Bitcoin monte :"
+      en-GB : "Le prix du Bitcoin monte :"
+     index : 0
+   -
+     text :
+      fr-FR : "Le prix du Bitcoin monte :"
+      en-GB : "Le prix du Bitcoin monte :"
+     index : 1
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

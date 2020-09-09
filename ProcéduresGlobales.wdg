@@ -1,0 +1,164 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : ProcéduresGlobales
+ major_version : 25
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1f393cbe01198241
+ internal_properties : BQAAAAUAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      
+     type : 720898
+  procedures :
+   -
+     name : init_bdd
+     procedure_id : 2251630682173877940
+     type_code : 15
+     code : |1+
+      // init de la base
+      procédure init_bdd()
+      
+      HCréationSiInexistant("*")
+      // renseigne le prix  au 01/01/2020 sur kraken.
+      _1erJanvier2020 est chaine = "20200101" + "000000"
+      // EURO
+      HLitRecherche(Prix_par_date, DeviseDate, ["EUR", _1erJanvier2020])
+      si pas HTrouve(Prix_par_date) ALORS
+      	Prix_par_date.Date		= _1erJanvier2020
+      	Prix_par_date.Devise    = "EUR"
+      	Prix_par_date.Prix	= 6397
+      	HAjoute(Prix_par_date)
+      FIN
+      // $
+      HLitRecherche(Prix_par_date, DeviseDate, ["USD", _1erJanvier2020])
+      SI PAS HTrouve(Prix_par_date) ALORS
+      	Prix_par_date.Date		= _1erJanvier2020
+      	Prix_par_date.Devise	= "USD"
+      	Prix_par_date.Prix		= 7168
+      	HAjoute(Prix_par_date)
+      FIN
+     type : 458752
+   -
+     name : add_price
+     procedure_id : 2249896481766653439
+     type_code : 15
+     code : |1+
+      // Ajouter une nouveau prix dans la base a la date courante
+      procédure add_price( prix est un monétaire, devise chaine )
+      dbgAssertion(devise="EUR" ou devise ="USD")
+      
+      Prix_par_date.Date     = DateHeureSys()
+      Prix_par_date.Devise   = devise
+      Prix_par_date.Prix     = prix
+      HAjoute(Prix_par_date)
+      
+     type : 458752
+   -
+     name : get_last_priceAndDate
+     procedure_id : 2252388988716592555
+     type_code : 15
+     code : |1+
+      // renvoie le dernier prix et date connus
+      procédure get_last_priceAndDate( devise chaine) 
+      dbgAssertion(devise="EUR" OU devise ="USD")
+      
+      // récup prix max
+      HLitRechercheDernier(Prix_par_date,DeviseDate,[devise])
+      SI PAS HTrouve() ALORS
+      	RENVOYER (0, DateHeureSys() )
+      FIN
+      
+      RENVOYER ( Prix_par_date.Prix, Prix_par_date.Date )
+     type : 458752
+   -
+     name : get_ath
+     procedure_id : 2249898088084533812
+     type_code : 15
+     code : |1+
+      // renvoie le prix max jamais atteinds
+      procédure get_ath(devise chaine) : monétaire
+      dbgAssertion(devise="EUR" OU devise ="USD")
+      
+      // récup prix max
+      HLitDernier(Prix_par_date,devisePrix)
+      si pas HTrouve() ALORS
+      	renvoyer 0
+      FIN
+      
+      renvoyer Prix_par_date.Prix
+     type : 458752
+   -
+     name : _get_price_start_date
+     procedure_id : 2251595802744343297
+     type_code : 15
+     code : |1-
+      // renvoie le prix a une daté donnée (pour l'heure min)
+      procédure privée _get_price_start_date( stattDate date, devise chaine ) : monétaire
+      dbgAssertion(devise="EUR" OU devise ="USD")
+      
+      sDateMin est chaine = stattDate + "000000"
+      HLitRecherchePremier(Prix_par_date, deviseDate,[devise, sDateMin] )
+      SI HEnDehors() ALORS
+      	RENVOYER 0
+      FIN
+      
+      RENVOYER Prix_par_date.Prix
+     type : 458752
+   -
+     name : get_price_start_day
+     procedure_id : 2249900742377561867
+     type_code : 15
+     code : |1+
+      // renvoie le prix au début de la journée
+      procédure get_price_start_day( devise chaine ) : monétaire
+      dbgAssertion(devise="EUR" OU devise ="USD")
+      
+      DateMinJour est date = DateSys()
+      RENVOYER _get_price_start_date( DateMinJour, devise )
+     type : 458752
+   -
+     name : get_price_start_week
+     procedure_id : 2251247326277617939
+     type_code : 15
+     code : |1+
+      procédure get_price_start_week(devise chaine) : monétaire
+      
+      // calcul du lundi correspondant
+      premierJourSemaine est date = DateSys()
+      premierJourSemaine.jour -= premierJourSemaine.VersJourDeLaSemaine()-1
+      RENVOYER _get_price_start_date( premierJourSemaine, devise  )
+      
+     type : 458752
+   -
+     name : get_price_start_year
+     procedure_id : 2251595600880833307
+     type_code : 15
+     code : |1+
+      procédure get_price_start_year(devise chaine) : monétaire
+      
+      // calcul du 1er jour de l'année
+      premierJourAnnée est date = DateSys()
+      premierJourAnnée.Jour = 1
+      premierJourAnnée.Mois = 1
+      
+      renvoyer _get_price_start_date( premierJourAnnée, devise  )
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : ProcéduresGlobales1
+resources :
+ string_res :
+  identifier : 0x1f393cbe01188241
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
