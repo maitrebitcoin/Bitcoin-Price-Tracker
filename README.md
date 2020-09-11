@@ -1,5 +1,5 @@
 # Bitcoin-Price-Tracker
-Application WinDev Mobile pour suivre le prix ou BTC en € ou $
+Application WinDev Mobile 25 pour suivre le prix ou BTC en € ou $
 
 générè une application Android dispo ici 
 
