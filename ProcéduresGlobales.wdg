@@ -54,6 +54,11 @@ procedure_set :
       // Ajouter une nouveau prix dans la base a la date courante
       procédure add_price( prix est un monétaire, devise chaine )
       dbgAssertion(devise="EUR" ou devise ="USD")
+      // blindage
+      si prix<=0 alors
+      	dbgAssertion(faux)
+      	retour
+      FIN
       
       Prix_par_date.Date     = DateHeureSys()
       Prix_par_date.Devise   = devise
