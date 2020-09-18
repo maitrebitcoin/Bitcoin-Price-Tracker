@@ -369,6 +369,7 @@ window :
    -
      code : |1-
       
+      MAJ_LIbelle()
       refresh_price()
      type : 34
    -
@@ -400,19 +401,16 @@ window :
       FIN
       
       
-      // appel WS + MAJ globale FEN
-      dernierprix est un monétaire
-      dernierprix = _dGetPrixFromKraken(sPair, sNomJson)
-      si dernierprix = 0 ALORS
-      	retour // invalide
-      FIN
-      prixCourant = dernierprix
-      
-      // ajout a la base
-      add_price(prixCourant,gsDevise)
-      
-      // MJA Libellé liés au prix
-      MAJ_Libelle()
+      // appel WS  pour récu"rer le dernier prix de marché 
+      getPrixFromKraken_Async(sPair, sNomJson, _onRécuperPrix)
+      procédure interne _onRécuperPrix( dernierprix est un monétaire  )
+      	// MAJ globale
+      	prixCourant = dernierprix
+      	// ajout a la base
+      	add_price(prixCourant,gsDevise)
+      	// MAJ Libellé liés au prix
+      	MAJ_LIbelle()
+      fin
       
      type : 458752
    -
@@ -488,11 +486,31 @@ window :
       FIN
      type : 458752
    -
+     name : getPrixFromKraken_Async
+     procedure_id : 2261272316812339380
+     type_code : 14
+     code : |1+
+      procédure getPrixFromKraken_Async( LOCAL sPair chaîne  ANSI,local sNomJson est chaine ANSI, callback procédure  )
+      
+      _callback est une procédure = callback
+      TâcheParallèleExécute(_tache,( ))
+      procédure interne _tache()
+      	// récupération du prix via un webservice - bloquant 
+      	prix est un monétaire = _dGetPrixFromKraken(sPair, sNomJson )
+      	si prix =0 ALORS
+      		// echec
+      	FIN
+      	// Appel callback dans la thread principal
+      	ExécuteThreadPrincipal(_callback, prix)
+      	
+      fin
+     type : 458752
+   -
      name : _dGetPrixFromKraken
      procedure_id : 2249892186795866821
      type_code : 14
      code : |1-
-      PROCEDURE _dGetPrixFromKraken(local sPair chaîne  ANSI,local sNomJson est chaine ANSI ) : réel
+      PROCEDURE _dGetPrixFromKraken(local sPair chaîne  ANSI,local sNomJson est chaine ANSI ) : monétaire
       
       QUAND EXCEPTION dans
       
@@ -500,9 +518,16 @@ window :
       sUrl est chaîne  ANSI = "https://api.kraken.com/0/public/Trades?pair=" + sPair 
       
       sNomRech est chaîne = sNomJson// ex : "XETHZEUR"
-      //SI sPair = "BTCEUR" ALORS
-      //	sNomRech = "XXBTZEUR"
-      //FIN
+      
+      //@A voir
+      //// lancer le requete,  version asynchrone
+      //requeteGetTrade est un httpRequête
+      //requeteGetTrade.URL = sUrl
+      //p est une procédure =_callbackReponse
+      //requeteGetTrade.Envoie(  p )
+      //procédure interne _callbackReponse( laRéponse est un httpRéponse  )
+      //	
+      //fin
       
       // demande les dernières transaction a KRAKEN
       bRes est un booléen = HTTPRequête(sUrl)

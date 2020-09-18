@@ -75,8 +75,10 @@ procedure_set :
       procédure get_last_priceAndDate( devise chaine) 
       dbgAssertion(devise="EUR" OU devise ="USD")
       
-      // récup prix max
-      HLitRechercheDernier(Prix_par_date,DeviseDate,[devise])
+      // filtrer sur la bonne devise
+      HFiltre(Prix_par_date,Devise,devise)
+      // récup dernier prix connu
+      HLitDernier(Prix_par_date,Date) //,[devise,""])
       SI PAS HTrouve() ALORS
       	RENVOYER (0, DateHeureSys() )
       FIN
@@ -92,8 +94,10 @@ procedure_set :
       procédure get_ath(devise chaine) : monétaire
       dbgAssertion(devise="EUR" OU devise ="USD")
       
+      // filtrer sur la bonne devise
+      HFiltre(Prix_par_date,Devise,devise)
       // récup prix max
-      HLitDernier(Prix_par_date,devisePrix)
+      HLitDernier(Prix_par_date,Prix)
       si pas HTrouve() ALORS
       	renvoyer 0
       FIN
@@ -109,8 +113,11 @@ procedure_set :
       procédure privée _get_price_start_date( stattDate date, devise chaine ) : monétaire
       dbgAssertion(devise="EUR" OU devise ="USD")
       
+      // filtrer sur la bonne devise
+      HFiltre(Prix_par_date,Devise,devise)
+      // recherche a partir de l date donnée, on force HHMMSS a 0
       sDateMin est chaine = stattDate + "000000"
-      HLitRecherchePremier(Prix_par_date, deviseDate,[devise, sDateMin] )
+      HLitRecherchePremier(Prix_par_date, Date, sDateMin )
       SI HEnDehors() ALORS
       	RENVOYER 0
       FIN
