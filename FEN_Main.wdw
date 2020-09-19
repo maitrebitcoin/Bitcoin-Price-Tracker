@@ -364,7 +364,7 @@ window :
       // Timer de MAJ : toutes les 2 heures
       TimerSys(Callback_timer,100*60*2,1)                                         
       	procédure interne Callback_timer()
-      		refresh_price(vrai)
+      		refresh_price()
       	fin
    -
      code : |1-
@@ -383,12 +383,8 @@ window :
      type_code : 14
      code : |1+
       // demander a récupérer le prix a nouveau
-      procédure refresh_price(bFromTimer est un booléen=faux)
+      procédure refresh_price()
       
-      LIB_Prix_1_BTC = 0
-      si pas bFromTimer
-      	Multitâche(-1)
-      fin
       
       // appel d'un webservice pour avoir le prix
       // par défait en Euros
@@ -408,6 +404,8 @@ window :
       	prixCourant = dernierprix
       	// ajout a la base
       	add_price(prixCourant,gsDevise)
+      	// pour forcer l'animation
+      	LIB_Prix_1_BTC = 0
       	// MAJ Libellé liés au prix
       	MAJ_LIbelle()
       fin
@@ -499,6 +497,7 @@ window :
       	prix est un monétaire = _dGetPrixFromKraken(sPair, sNomJson )
       	si prix =0 ALORS
       		// echec
+      		retour
       	FIN
       	// Appel callback dans la thread principal
       	ExécuteThreadPrincipal(_callback, prix)
@@ -544,6 +543,14 @@ window :
       vJsWW est un variant =JSONVersVariant(sJSON)
       vJs est variant = vJsWW.result //.XETHEUR //[1000]
       
+      // récup date
+      slast est chaine =  vJs.last
+      si slast<"1600502946233061985" ALORS
+      	// vieux résultat, on ignore
+      	renvoyer 0
+      FIN
+      
+      
       //trace( vjsWW.result.XETHZEUR[1000])
       
       //soit bVjs_Tab = vjs= vjs.XETHEUR //[999] //[1000]
@@ -559,7 +566,7 @@ window :
       		si (dPrix > 100000000) ALORS
       			renvoyer 0
       		FIN
-      		
+      		dbgAssertion(dPrix>1000)
       		RENVOYER dPrix
       	FIN
       FIN
