@@ -455,7 +455,7 @@ window :
       // calcul évolution 24 h
       prixRef_jour est un monétaire
       prixRef_jour = get_price_start_day(gsDevise)
-      prixRef_semaine est un monétaire
+       prixRef_semaine est un monétaire
       prixRef_semaine = get_price_start_week(gsDevise)
       prixRef_annee  est un monétaire
       prixRef_annee = get_price_start_year(gsDevise)
@@ -587,6 +587,7 @@ window :
       
       // calcul valeur a afficher
       SI prixRef = 0 ALORS
+      	champDest = "?"
       	RETOUR
       FIN
       evolution			est un réel	= (_prixCourant - prixRef) / prixRef

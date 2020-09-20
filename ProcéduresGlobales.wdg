@@ -114,11 +114,14 @@ procedure_set :
       dbgAssertion(devise="EUR" OU devise ="USD")
       
       // filtrer sur la bonne devise
-      HFiltre(Prix_par_date,Devise,devise)
+      //HFiltre(Prix_par_date,DeviseDate,devise)
       // recherche a partir de l date donnée, on force HHMMSS a 0
       sDateMin est chaine = stattDate + "000000"
-      HLitRecherchePremier(Prix_par_date, Date, sDateMin )
+      HLitRecherchePremier(Prix_par_date, DeviseDate,[devise, sDateMin] )
       SI HEnDehors() ALORS
+      	RENVOYER 0
+      FIN
+      si Prix_par_date.devise<>devise alors
       	RENVOYER 0
       FIN
       
